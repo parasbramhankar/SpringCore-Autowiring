@@ -2,15 +2,15 @@ package org.example;
 
 public class EatableFruit {
 
-    Fruit fruit;
+    Fruit1 fruit1;
 
-    public void setFruit(Fruit fruit) {
-        this.fruit = fruit;
+    public void setFruit(Fruit1 fruit1) {
+        this.fruit1 = fruit1;
     }
 
     void eatableFruit(){
 
-        boolean isFruitEatable=fruit.isEatable();
+        boolean isFruitEatable=fruit1.isEatable();
 
         if(isFruitEatable){
             System.out.println("This fruit is eatable");
