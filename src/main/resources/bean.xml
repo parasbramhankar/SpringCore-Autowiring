@@ -10,32 +10,16 @@
     <!-- Step 2: Define your beans here -->
 
 
-
-
     <!--    Apple class bean  -->
     <!--    <bean id="apple" class="org.example.Apple"/>-->
-    <bean id="fruit" class="org.example.Apple"/>
+
+    <bean id="apple" class="org.example.Apple"/>
+    <bean id="eat" class="org.example.EatableFruit" autowire="constructor"/>
 
 
-    <!-- Orange Class Bean -->
-    <bean id="orange" class="org.example.Orange"/>
-
-
-
-
-
-    <!-- Step 3: Inject dependency -->
-    <bean id="eat" class="org.example.EatableFruit" autowire="byName" scope="singleton"/>
-
-
-
-
-
-
-
-    <!--    <bean id="eatable" class="org.example.EatableFruit">-->
-    <!--        <property name="fruit" ref="orange"/>-->
-    <!--    </bean>-->
+<!-- Orange Class Bean -->
+<!--    <bean id="orange" class="org.example.Orange"/>-->
+<!--    <bean id="eatable" class="org.example.EatableFruit" autowire="byType"/>-->
 
 
 </beans>
