@@ -8,7 +8,7 @@ public class EatableFruit {
         this.fruit = fruit;
     }
 
-    void fruitName(){
+    void eatableFruit(){
         boolean isFruitEatable=fruit.isEatable();
 
         if(isFruitEatable){
