@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Step 1: Root tag for Spring configuration -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Step 2: Define your beans here -->
+
+
+    <!--    Apple class bean  -->
+    <bean id="apple" class="org.example.Apple"/>
+    
+    <!-- Orange Class Bean -->
+    <bean id="orange" class="org.example.Orange"/>
+
+    <!-- Step 3: Inject dependency -->
+    <bean id="eatable" class="org.example.EatableFruit">
+        <property name="fruit" ref="apple"/>
+    </bean>
+
+</beans>
