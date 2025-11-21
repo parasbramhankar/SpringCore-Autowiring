@@ -4,7 +4,7 @@ public class EatableFruit {
 
     Fruit fruit;
 
-    public void setFruit(Fruit fruit1) {
+    public void setFruit1(Fruit fruit) {
         this.fruit = fruit;
     }
 

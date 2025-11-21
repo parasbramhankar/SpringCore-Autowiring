@@ -13,12 +13,8 @@
 
 
     <!--    Apple class bean  -->
-<!--    <bean id="apple" class="org.example.Apple"/>-->
-
+    <!--    <bean id="apple" class="org.example.Apple"/>-->
     <bean id="fruit" class="org.example.Apple"/>
-
-
-
 
 
     <!-- Orange Class Bean -->
@@ -29,7 +25,7 @@
 
 
     <!-- Step 3: Inject dependency -->
-    <bean id="eat" class="org.example.EatableFruit" autowire="byName" scope="prototype"/>
+    <bean id="eat" class="org.example.EatableFruit" autowire="byName" scope="singleton"/>
 
 
 
@@ -37,9 +33,9 @@
 
 
 
-<!--    <bean id="eatable" class="org.example.EatableFruit">-->
-<!--        <property name="fruit" ref="orange"/>-->
-<!--    </bean>-->
+    <!--    <bean id="eatable" class="org.example.EatableFruit">-->
+    <!--        <property name="fruit" ref="orange"/>-->
+    <!--    </bean>-->
 
 
 </beans>
