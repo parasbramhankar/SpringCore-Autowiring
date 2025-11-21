@@ -9,6 +9,7 @@ public class EatableFruit {
     }
 
     void eatableFruit(){
+
         boolean isFruitEatable=fruit.isEatable();
 
         if(isFruitEatable){
