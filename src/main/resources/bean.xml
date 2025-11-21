@@ -15,7 +15,7 @@
     <!--    Apple class bean  -->
 <!--    <bean id="apple" class="org.example.Apple"/>-->
 
-    <bean id="fruit1" class="org.example.Apple"/>
+    <bean id="fruit" class="org.example.Apple"/>
 
 
 
