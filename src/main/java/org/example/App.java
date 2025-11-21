@@ -12,10 +12,8 @@ public class App
     public static void main( String[] args )
     {
         ApplicationContext context=new ClassPathXmlApplicationContext("bean.xml");
-
-        EatableFruit fruit=context.getBean(EatableFruit.class);
-        fruit.eatableFruit();
-
+        EatableFruit eat=context.getBean(EatableFruit.class);
+        eat.eatableFruit();
 
     }
 }
