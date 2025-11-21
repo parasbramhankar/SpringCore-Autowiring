@@ -17,8 +17,9 @@
     <bean id="orange" class="org.example.Orange"/>
 
     <!-- Step 3: Inject dependency -->
-    <bean id="eatable" class="org.example.EatableFruit">
+    <bean id="eat" class="org.example.EatableFruit">
         <property name="fruit" ref="apple"/>
     </bean>
+
 
 </beans>
