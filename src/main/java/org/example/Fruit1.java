@@ -1,5 +1,5 @@
 package org.example;
 
-public interface Fruit {
+public interface Fruit1 {
     boolean isEatable();
 }
