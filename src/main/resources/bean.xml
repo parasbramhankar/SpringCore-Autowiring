@@ -17,6 +17,7 @@
     <bean id="eat" class="org.example.EatableFruit" autowire="constructor"/>
 
 
+
 <!-- Orange Class Bean -->
 <!--    <bean id="orange" class="org.example.Orange"/>-->
 <!--    <bean id="eatable" class="org.example.EatableFruit" autowire="byType"/>-->
